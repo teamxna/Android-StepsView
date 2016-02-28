@@ -120,7 +120,7 @@ public class StepsView extends LinearLayout implements StepsViewIndicator.OnDraw
                 textView.setText(mLabels[i]);
                 textView.setTextColor(mLabelColorIndicator);
                 textView.setX(indicatorPosition.get(i));
-                textview.setRotation(45);
+                textView.setRotation(45);
                 textView.setLayoutParams(
                         new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
                                 ViewGroup.LayoutParams.WRAP_CONTENT));
